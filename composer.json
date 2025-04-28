@@ -1,5 +1,5 @@
 {
-    "name": "nesk/puphpeteer",
+    "name": "tungtu/puphpeteer",
     "description": "A Puppeteer bridge for PHP, supporting the entire API.",
     "keywords": [
         "php",
@@ -14,8 +14,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Johann Pardanaud",
-            "email": "pardanaud.j@gmail.com"
+            "name": "Tung Tu",
+            "email": "tuthanhtungit@gmail.com"
         }
     ],
     "require": {
