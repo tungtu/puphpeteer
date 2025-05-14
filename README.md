@@ -61,7 +61,7 @@ Install it with these two command lines:
 
 ```shell
 composer require tungtu/puphpeteer
-npm install @nesk/puphpeteer
+npm install @tungtu/puphpeteer
 ```
 
 ## Notable differences between PuPHPeteer and Puppeteer
