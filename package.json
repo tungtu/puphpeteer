@@ -1,6 +1,6 @@
 {
   "name": "@tungtu/puphpeteer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Puppeteer bridge for PHP, supporting the entire API.",
   "keywords": [
     "php",
@@ -11,22 +11,33 @@
     "developer-tools",
     "automation"
   ],
-  "author": {
-    "name": "Tung Tu",
-    "email": "tuthanhtungit@gmail.com"
-  },
+  "author": "Tung Tu <tuthanhtungit@gmail.com>",
   "license": "MIT",
-  "repository": "github:tungtu/puphpeteer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungtu/puphpeteer.git"
+  },
   "engines": {
     "node": ">=9.0.0"
   },
   "dependencies": {
-    "@nesk/rialto": "^1.2.1",
-    "puppeteer": "~5.5.0"
+    "@tungtu/rialto": "^1.4.1",
+    "puppeteer": "^24.8.2"
   },
   "devDependencies": {
     "@types/yargs": "^15.0.10",
     "typescript": "^4.1.2",
     "yargs": "^16.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/tungtu/puphpeteer/issues"
+  },
+  "homepage": "https://github.com/tungtu/puphpeteer#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
